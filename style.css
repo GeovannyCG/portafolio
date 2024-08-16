@@ -1,0 +1,67 @@
+/* Eliminar el magin y padding que se aplica por default */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el navbar */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Estilo para el header */
+header {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header #header-left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente dentro del div */
+    flex: 1; /* Permite que el contenido crezca para llenar el espacio disponible */
+    margin-right: 20px; /* Opcional: ajuste de espaciado */
+    max-width: 800px;
+}
+
+header #header-left-section #presentation > * {
+    margin-bottom: 10px;
+}
+
+header #header-left-section #links-contact a {
+    text-decoration: none;
+}
+
+header #header-left-section #links-contact > * {
+    margin-right: 10px;
+}
+
+
+header #header-right-section img {
+    width: 350px; /* Ajustar el tamaño según sea necesario */
+    height: auto; /* Mantener la proporción de la imagen */
+    max-width: 100%; /* Escalabilidad */
+    border-radius: 100%;
+}
+
+/* Estilos para la seccion prinicipal */
+main {
+    padding: 50px;
+}
+/* Estilos para el footer */
+footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
